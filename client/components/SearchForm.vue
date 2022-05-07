@@ -23,7 +23,7 @@ const submit = () => {
       <input
         type="text"
         v-model="query"
-        class="input input-bordered w-full max-w-xs"
+        class="input input-bordered w-full md:max-w-xs"
         placeholder="サイト内検索"
       />
     </form>
