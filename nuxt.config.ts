@@ -13,6 +13,13 @@ export default defineNuxtConfig({
         apiKey: API_KEY,
         serviceDomain: SERVICE_DOMAIN
     },
+    app: {
+        head: {
+            meta: [
+                {  name: 'viewport', content: 'width=device-width,initial-scale=1.0,maximum-scale=1.0'  },
+            ],
+        }
+    },
     css: [ '@/assets/css/style.css' ],
     buildModules: ['@nuxtjs/tailwindcss'],
     publicRuntimeConfig: {
