@@ -10,10 +10,6 @@ interface Props {
 const router = useRouter()
 const props = defineProps<Props>()
 
-const tagLink = (tag: Tag) => {
-  return `/tag/${tag.id}/page/1`
-}
-
 const goTagIndex = (tag: Tag) => {
   router.push(`/tag/${tag.id}/page/1`)
 }

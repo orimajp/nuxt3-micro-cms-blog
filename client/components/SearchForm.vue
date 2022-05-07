@@ -1,5 +1,4 @@
 <script setup lang="ts">
-//const router = useRouter()
 const query = ref('')
 
 const canSubmit = () => {

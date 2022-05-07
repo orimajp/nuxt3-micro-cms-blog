@@ -1,5 +1,4 @@
 <script setup lang="ts">
-//import { Post } from '~/server/api/types';
 const route = useRoute()
 const page = Number(route.params.p || 1)
 const selectedTagId = route.params.tagId === undefined ? '' : route.params.tagId as string
